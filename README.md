@@ -9,6 +9,7 @@
 
 ## 2、maven引入自己的jar, 操作如下	
 ```
+1、
 <dependency>
       <groupId>iTextAsina</groupId>
       <artifactId>com.lowageie.text.pdf.fonts</artifactId>
@@ -17,4 +18,6 @@
       //下面就是自己的路径
       <systemPath>E:/ideaGitProject/commonUtil/export-xls-doc-pdf/src/main/resource/iTextAsian.jar</systemPath>
 </dependency>
+
+2、可以将jar打包到本地库，然后引入jar，参考地址：https://blog.csdn.net/JinbaoSite/article/details/79427544
 ```
