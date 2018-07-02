@@ -25,3 +25,7 @@
 - servlet直接是文件流
 - struts2直接封装file对象，直接用
 - springmvc 直接用MultipartFile
+
+## 4、ireport4.6启动不了，一起懂就闪退。
+- 原来是jdk没路径配置好.修改：ireport根目录/etc/ireport.conf 中jdk配置就可以了
+- 参考地址https://blog.csdn.net/dragonpeng2008/article/details/51943711
