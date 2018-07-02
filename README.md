@@ -21,3 +21,7 @@
 
 2、可以将jar打包到本地库，然后引入jar，参考地址：https://blog.csdn.net/JinbaoSite/article/details/79427544
 ```
+## 3、文件上传，参考地址：https://www.cnblogs.com/ghq120/p/8312944.html
+- servlet直接是文件流
+- struts2直接封装file对象，直接用
+- springmvc 直接用MultipartFile
