@@ -29,3 +29,9 @@
 ## 4、ireport4.6启动不了，一起懂就闪退。
 - 原来是jdk没路径配置好.修改：ireport根目录/etc/ireport.conf 中jdk配置就可以了
 - 参考地址https://blog.csdn.net/dragonpeng2008/article/details/51943711
+
+## 5、生成日志路径问题：
+lockback.xml 日志生成位置(windows,unix没测)，生成路径如下：
+如果log.dir = ../logs/项目名称/logs/日志名称，会生成到tomcat下面的logs里面
+如果log.dir = logs/日志名称,会生成到tomcat/bin下面
+如果log.dir=/log/日志名称,会生成到项目跟目录下面
