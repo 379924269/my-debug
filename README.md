@@ -31,7 +31,6 @@
 - 参考地址https://blog.csdn.net/dragonpeng2008/article/details/51943711
 
 ## 5、生成日志路径问题：
-lockback.xml 日志生成位置(windows,unix没测)，生成路径如下：
-如果log.dir = ../logs/项目名称/logs/日志名称，会生成到tomcat下面的logs里面
-如果log.dir = logs/日志名称,会生成到tomcat/bin下面
-如果log.dir=/log/日志名称,会生成到项目跟目录下面
+- log.dir = ../logs/项目名称/logs/日志名称，会生成到tomcat下面的logs里面
+- log.dir = logs/日志名称,会生成到tomcat/bin下面
+- log.dir = /log/日志名称,会生成到项目跟目录下面
