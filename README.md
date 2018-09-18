@@ -34,3 +34,7 @@
 - log.dir = ../logs/项目名称/logs/日志名称，会生成到tomcat下面的logs里面
 - log.dir = logs/日志名称,会生成到tomcat/bin下面
 - log.dir = /log/日志名称,会生成到项目跟目录下面
+
+## 6、jar包记录日志问题
+- 引入依赖包，maven引入slf4j-log4j12，其他依赖都有了
+- src/resources 包中加入log4j.properties
