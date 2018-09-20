@@ -38,3 +38,10 @@
 ## 6、jar包记录日志问题
 - 引入依赖包，maven引入slf4j-log4j12，其他依赖都有了
 - src/resources 包中加入log4j.properties
+
+## 7、 springboot 开启调试模式，
+- 1、打开Run/Debug Configurations,
+- 2、选择Spring Boot 下要进行debug调试的服务,
+- 3、在VM options:的填写框中写入"-Xms512m -Xmx512m -Xmn164m -XX:MaxPermSize=250m -XX:ReservedCodeCacheSize=64m -Dserver.port=8080 -ea",
+- 4、port是该服务的端口号;Working directory选择$MODULE_DIR$。
+- 5、然后debug运行微服务主程序入后即@springbootapplication注释的类就可以了
