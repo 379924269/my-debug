@@ -45,3 +45,13 @@
 - 3、在VM options:的填写框中写入"-Xms512m -Xmx512m -Xmn164m -XX:MaxPermSize=250m -XX:ReservedCodeCacheSize=64m -Dserver.port=8080 -ea",
 - 4、port是该服务的端口号;Working directory选择$MODULE_DIR$。
 - 5、然后debug运行微服务主程序入后即@springbootapplication注释的类就可以了
+
+还有一个简单的命令：
+- 1、打开Run/Debug Configurations
+- 2、添加一个maven命令：spring-boot:run -Ddebug 然后运行命令就可以了
+
+
+## 8、springboot devtools 的使用
+- 1、“File” -> “Settings” -> “Build,Execution,Deplyment” -> “Compiler”，选中打勾 “Build project automatically” 。
+
+- 2、组合键：“Shift+Ctrl+Alt+/” ，选择 “Registry” ，选中打勾 “compiler.automake.allow.when.app.running” 。
