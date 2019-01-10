@@ -41,5 +41,19 @@
 
 #### 十三、前端传密码要密文传输
 
+#### 十三、模糊查询字段要处理的特殊字符（sql查询下划线和%都是查询所有）
+
+    //处理特殊字符"_"和"%"
+    public static String dealSpecialCharacter(String specialCharacters) {
+            if (isEmpty(specialCharacters)) {
+                return specialCharacters;
+            } else {
+                if (searchParam.contains("%") || searchParam.contains("_")) {
+                    return searchParam.replace("%", "\\%").replace("_", "\\_");
+                }
+                return searchParam;
+            }
+    }
+
 
 
