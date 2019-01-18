@@ -55,3 +55,11 @@
 - 1、“File” -> “Settings” -> “Build,Execution,Deplyment” -> “Compiler”，选中打勾 “Build project automatically” 。
 
 - 2、组合键：“Shift+Ctrl+Alt+/” ，选择 “Registry” ，选中打勾 “compiler.automake.allow.when.app.running” 。
+
+## 9、springboot 跨域问题，修改参看地址：
+https://blog.csdn.net/qq_24393965/article/details/80689299
+
+## 10、写代码的时候注意：
+类和方法的名称是否“一眼就看明白了”、“不写注释也看得懂”。
+方法中的代码是否“一眼就看明白了”， 代码行数不应该过多。
+写方法的时候注意兼容性，
