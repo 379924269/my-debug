@@ -19,6 +19,14 @@
       <systemPath>E:/ideaGitProject/commonUtil/export-xls-doc-pdf/src/main/resource/iTextAsian.jar</systemPath>
 </dependency>
 
+<dependency>
+	  <groupId>com.ckfinder</groupId>
+	  <artifactId>apache-ant-zip</artifactId>
+	  <version>2.3</version>
+	  <scope>system</scope>
+	  <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/apache-ant-zip-2.3.jar</systemPath>				
+</dependency>
+
 2、可以将jar打包到本地库，然后引入jar，参考地址：https://blog.csdn.net/JinbaoSite/article/details/79427544
 ```
 ## 3、文件上传，参考地址：https://www.cnblogs.com/ghq120/p/8312944.html
@@ -63,3 +71,20 @@ https://blog.csdn.net/qq_24393965/article/details/80689299
 类和方法的名称是否“一眼就看明白了”、“不写注释也看得懂”。
 方法中的代码是否“一眼就看明白了”， 代码行数不应该过多。
 写方法的时候注意兼容性，
+
+## 11、maven不配置下面代码，变异的时候可能有点问，注意：
+````
+ <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.3</version>
+      <configuration>
+           <source>1.8</source>
+           <target>1.8</target>
+      </configuration>
+ </plugin>
+````
+
+## 12、创建项目后目录 mark directory as 问题：
+参考地址：https://ask.csdn.net/questions/706375 下面的回答
+注意：源码一定要放到main.java目录下面，别少了【java目录】

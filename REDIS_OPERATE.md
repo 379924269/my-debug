@@ -10,4 +10,6 @@
 
 redis 的一些帮助：输入help，再按tab键或直接输入commands。就可以看到一些该commands的一些帮助信息
 
+redis 中文乱码 win10: redis-cli --raw
+
 官网参考地址：http://www.redis.net.cn/tutorial/3507.html
