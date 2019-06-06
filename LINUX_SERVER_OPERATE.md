@@ -18,4 +18,6 @@ grant all privileges on *.* to 'root'@'%' identified by '123456' with grant opti
 flush privileges;
 受了权限还是不能连上可能是linux防火墙没有关
 
+### 注意磁盘的使用率，使用90%以上，就容易造成系统问题
+
 
