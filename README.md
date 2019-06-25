@@ -88,3 +88,8 @@ https://blog.csdn.net/qq_24393965/article/details/80689299
 ## 12、创建项目后目录 mark directory as 问题：
 参考地址：https://ask.csdn.net/questions/706375 下面的回答
 注意：源码一定要放到main.java目录下面，别少了【java目录】
+
+## 13、多项目打包，问题：打的jar包含了库文件，如果分模块项目体积就变大了，处理参考地址：
+````
+https://blog.csdn.net/lizhongfu2013/article/details/7965697
+````
