@@ -93,3 +93,8 @@ https://blog.csdn.net/qq_24393965/article/details/80689299
 ````
 https://blog.csdn.net/lizhongfu2013/article/details/7965697
 ````
+
+## 14、springboot jar改为war包参考地址：
+````
+https://www.jianshu.com/p/6451e6aa99a0
+````
