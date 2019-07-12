@@ -98,3 +98,8 @@ https://blog.csdn.net/lizhongfu2013/article/details/7965697
 ````
 https://www.jianshu.com/p/6451e6aa99a0
 ````
+
+## 15、解决SpringBoot jar包太大的问题，参考地址：
+````
+https://www.cnblogs.com/ygjlch/p/7767639.html
+````
