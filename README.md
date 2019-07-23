@@ -103,3 +103,19 @@ https://www.jianshu.com/p/6451e6aa99a0
 ````
 https://www.cnblogs.com/ygjlch/p/7767639.html
 ````
+
+## 16、list<object>转list<map<string, object>>, 利用了java8的功能 
+````
+list<Position>.stream().map(this::toMap).collect(Collectors.toList());
+
+ private Map<String, Object> toMap(Position position) {
+        Map<String, Object> map = new HashMap<>();
+        map.put("id", position.getId());
+        map.put("userId", position.getUserId());
+        map.put("username", position.getUsername());
+        map.put("latitude", position.getLatitude());
+        map.put("longitude", position.getLongitude());
+        map.put("createTime", new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date(position.getCreateTime())));
+        return map;
+    }
+````
