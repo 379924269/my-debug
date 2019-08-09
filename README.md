@@ -119,3 +119,16 @@ list<Position>.stream().map(this::toMap).collect(Collectors.toList());
         return map;
     }
 ````
+
+## 17、git项目传到github上的操作步骤
+````
+1、git上创建一个新的项目，名称和自己的一样，
+2、修改本地项目的远程git地址为刚刚在git上创建的新项目。
+3、本地项目提交。
+````
+
+## 在war包里面还有一个lib-provided在里面，使包变得大了一些，参考处理地址：
+````
+https://www.cnblogs.com/andysd/p/10105801.html
+相当可以直接用xx.war.original这个包。把.original去掉就可以了
+````
