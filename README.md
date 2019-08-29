@@ -132,3 +132,6 @@ list<Position>.stream().map(this::toMap).collect(Collectors.toList());
 https://www.cnblogs.com/andysd/p/10105801.html
 相当可以直接用xx.war.original这个包。把.original去掉就可以了
 ````
+
+## bibernate验证规则参考地址
+https://www.cnblogs.com/wjh123/p/8745473.html
