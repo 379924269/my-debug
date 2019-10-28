@@ -25,3 +25,10 @@ source backupFile        //导入备份文件
 ####5、备份数据库
 mysqldump -uxxx -p databaseName > backupFile
 enter password: xxx
+
+####6、mysql中模糊查询要处理的特殊字符，记得转义
+1、' 点
+2、% 百分号
+3、下划线
+
+####6、 group_contact函数默认长度为1024子字节
