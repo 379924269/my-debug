@@ -1,4 +1,5 @@
 ## redis的一些常用操作
+[官网地址](http://www.redis.net.cn/tutorial/3507.html)
 
 #### 一、redis缓存数据库linux操作步骤：
 启动redis服务：redis-server
@@ -12,4 +13,3 @@ redis 的一些帮助：输入help，再按tab键或直接输入commands。就�
 
 redis 中文乱码 win10: redis-cli --raw
 
-官网参考地址：http://www.redis.net.cn/tutorial/3507.html

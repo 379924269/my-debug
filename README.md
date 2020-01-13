@@ -2,7 +2,8 @@
 我经常遇到的一些问题
 
 ## 1、通过maven创建普通的jar项目，没有引入jar包和主函数
-- 可以通过加载maven配置来完成，参考地址：https://blog.csdn.net/xiao__gui/article/details/47341385， 我选的第二种
+- 可以通过加载maven配置来完成，[参考地址](https://blog.csdn.net/xiao__gui/article/details/47341385)，
+ 我选的第二种
 - 第一种要生成一个lib和一个jar包，这样重复上传的的话可以少传代码，下次更新就只传一个jar就可以了（如果不更新jar包）
 
 
@@ -64,12 +65,11 @@
 
 - 2、组合键：“Shift+Ctrl+Alt+/” ，选择 “Registry” ，选中打勾 “compiler.automake.allow.when.app.running” 。
 
-## 9、springboot 跨域问题，修改参看地址：
-https://blog.csdn.net/qq_24393965/article/details/80689299
+## 9、springboot 跨域问题，[修改参看地址](https://blog.csdn.net/qq_24393965/article/details/80689299)
 
 ## 10、写代码的时候注意：
-类和方法的名称是否“一眼就看明白了”、“不写注释也看得懂”。
-方法中的代码是否“一眼就看明白了”， 代码行数不应该过多。
+类和方法的名称是否`一眼就看明白了`、`不写注释也看得懂`  
+方法中的代码是否`一眼就看明白了`， 代码行数不应该过多  
 写方法的时候注意兼容性，
 
 ## 11、maven不配置下面代码，变异的时候可能有点问，注意：
@@ -89,20 +89,16 @@ https://blog.csdn.net/qq_24393965/article/details/80689299
 参考地址：https://ask.csdn.net/questions/706375 下面的回答
 注意：源码一定要放到main.java目录下面，别少了【java目录】
 
-## 13、多项目打包，问题：打的jar包含了库文件，如果分模块项目体积就变大了，处理参考地址：
-````
-https://blog.csdn.net/lizhongfu2013/article/details/7965697
-````
+## 13、多项目打包，问题：打的jar包含了库文件，如果分模块项目体积就变大了  
+[处理参考地址](https://blog.csdn.net/lizhongfu2013/article/details/7965697)
 
-## 14、springboot jar改为war包参考地址：
-````
-https://www.jianshu.com/p/6451e6aa99a0
-````
+## 14、springboot jar改为war包
+[参考地址](https://www.jianshu.com/p/6451e6aa99a0)
 
-## 15、解决SpringBoot jar包太大的问题，参考地址：
-````
-https://www.cnblogs.com/ygjlch/p/7767639.html
-````
+## 15、解决SpringBoot jar包太大的问题
+[参考地址](https://www.cnblogs.com/ygjlch/p/7767639.html)
+
+
 
 ## 16、list<object>转list<map<string, object>>, 利用了java8的功能 
 ````
@@ -127,11 +123,10 @@ list<Position>.stream().map(this::toMap).collect(Collectors.toList());
 3、本地项目提交。
 ````
 
-## 在war包里面还有一个lib-provided在里面，使包变得大了一些，参考处理地址：
-````
-https://www.cnblogs.com/andysd/p/10105801.html
+## 18、在war包里面还有一个lib-provided在里面，使包变得大了一些，
+[参考处理地址](https://www.cnblogs.com/andysd/p/10105801.html)  
 相当可以直接用xx.war.original这个包。把.original去掉就可以了
-````
 
-## bibernate验证规则参考地址
-https://www.cnblogs.com/wjh123/p/8745473.html
+
+## 19、bibernate验证规则
+[参考地址](https://www.cnblogs.com/wjh123/p/8745473.html)

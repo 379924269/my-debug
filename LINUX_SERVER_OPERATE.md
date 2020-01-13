@@ -1,4 +1,4 @@
-## javaweb开发常用linux操作
+## javaweb开发常用linux操作是的一些常用指令
 
 #### 一、查看日志详情
 tail -f /usr/local/apache-tomcat-8.0.30/logs/catalina.out -n 300
