@@ -1,5 +1,4 @@
-# my-debug
-我经常遇到的一些问题
+# 我经常遇到的一些问题
 
 ## 1、通过maven创建普通的jar项目，没有引入jar包和主函数
 - 可以通过加载maven配置来完成，[参考地址](https://blog.csdn.net/xiao__gui/article/details/47341385)，
@@ -30,14 +29,14 @@
 
 2、可以将jar打包到本地库，然后引入jar，参考地址：https://blog.csdn.net/JinbaoSite/article/details/79427544
 ```
-## 3、文件上传，参考地址：https://www.cnblogs.com/ghq120/p/8312944.html
+## 3、文件上传，[参考地址](https://www.cnblogs.com/ghq120/p/8312944.html)
 - servlet直接是文件流
 - struts2直接封装file对象，直接用
 - springmvc 直接用MultipartFile
 
 ## 4、ireport4.6启动不了，一起懂就闪退。
 - 原来是jdk没路径配置好.修改：ireport根目录/etc/ireport.conf 中jdk配置就可以了
-- 参考地址https://blog.csdn.net/dragonpeng2008/article/details/51943711
+[参考地址](https://blog.csdn.net/dragonpeng2008/article/details/51943711)
 
 ## 5、生成日志路径问题：
 - log.dir = ../logs/项目名称/logs/日志名称，会生成到tomcat下面的logs里面
@@ -86,7 +85,7 @@
 ````
 
 ## 12、创建项目后目录 mark directory as 问题：
-参考地址：https://ask.csdn.net/questions/706375 下面的回答
+[参考地址](https://ask.csdn.net/questions/706375) 下面的回答
 注意：源码一定要放到main.java目录下面，别少了【java目录】
 
 ## 13、多项目打包，问题：打的jar包含了库文件，如果分模块项目体积就变大了  

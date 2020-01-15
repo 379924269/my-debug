@@ -52,5 +52,3 @@ String url = 服务器地址 + "/oauth/check_token";
         return (NoOpPasswordEncoder) NoOpPasswordEncoder.getInstance();
     }
 ````
-### 三、security密码问题，springcloud高版本需要加密，解决方法
-
