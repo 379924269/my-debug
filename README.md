@@ -43,3 +43,4 @@
 ### [编程教程网站集合](commom/STUDY_TOUR_WEBSITE.md)
 
 ### [百个免费API接口分享，调用完全不限次数...](commom/API_FREE.md)
+### [PowerDesign 学习及常见问题](commom/POWER_DESIGN_LEARNING.md)
