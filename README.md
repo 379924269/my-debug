@@ -18,11 +18,7 @@
 
 ### [markdown文档格式模板](commom/MARKDOWN_LEARNING.md)
 
-### idea初始化配置
-* [idea快捷键](./idea-init-config/IDEA_SHORTCUT_KEY.md)
-* [我的idea安装过的插件](./idea-init-config/IDEA_INSTALLED_PLUG.md)
-* [idea中强大的功能](./idea-init-config/IDEA_POWERFULL_FUNCTION.md)
-* [idea的一些初始化配置](./idea-init-config/IDEA_INIT_CONFIG.md)
+### idea学习及常见问题
 
 ### [ireport学习](./ireport/IREPORT.md)
 
@@ -43,4 +39,9 @@
 ### [编程教程网站集合](commom/STUDY_TOUR_WEBSITE.md)
 
 ### [百个免费API接口分享，调用完全不限次数...](commom/API_FREE.md)
+
 ### [PowerDesign 学习及常见问题](commom/POWER_DESIGN_LEARNING.md)
+
+### [Webstrom 学习及常见问题](commom/LEARNING_AND_PROBLEM.md)
+
+### [Idea 学习及常见问题](idea-init-config/IDEA_LEARING_AND_PROBLEM.md)

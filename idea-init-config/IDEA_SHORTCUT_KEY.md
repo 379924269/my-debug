@@ -1,7 +1,25 @@
-idea java常用的一些快捷鍵：
-alt + insert    //插入get、set、和构造函数等 
-ctrl + shift + u   //大小写装换
+## idea java常用的一些快捷鍵：
+*  插入get、set、和构造函数等
+````
+alt + insert
+````
 
-shift+alt+z  //if while try/catch
+* 大小写转转
+````
+ctrl + shift + u 
+````
 
-ctrl+alt+f  // 提取常量快捷键
+* 添加 if while try/catch
+````
+shift + alt + z
+ ````
+ 
+* 提取常量快捷键
+````
+ctrl + alt + f
+ ````
+ 
+* 所有文件替换，这个是我自己设置的，可以到set-->keyMap中搜索replace in path
+````
+ctrl + shift + r 
+````
