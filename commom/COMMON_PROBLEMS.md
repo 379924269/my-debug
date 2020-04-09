@@ -134,3 +134,5 @@ list<Position>.stream().map(this::toMap).collect(Collectors.toList());
 解决Chrome插件安装时程序包无效:"CRX_HEADER_INVALID"。[参考地址](https://blog.csdn.net/wst0717/article/details/88867047)
 
 ## 21、java测试代码执行的速度的时候开启了调试debug，感觉代码执行时间很长，我关掉dubug就正常了。
+
+## 22、springboot resttemplete 发送https请求[参考地址](https://www.jianshu.com/p/c2663ba6826e)

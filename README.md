@@ -14,13 +14,11 @@
 
 ### [springcloud注意的一些问题](commom/SPRING_CLOUD_NOTE.md)
 
-### [我的chrome的书签](./my-web-bookmark/bookmarks_2018_11_16.html)
+### [我的chrome的书签](my-web-bookmark/bookmarks_2018_11_16.html)
 
 ### [markdown文档格式模板](commom/MARKDOWN_LEARNING.md)
 
-### idea学习及常见问题
-
-### [ireport学习](./ireport/IREPORT.md)
+### [ireport学习](ireport/IREPORT.md)
 
 ### [文件断点续传学习](commom/FILE_OPERATE.md)
 
@@ -44,4 +42,6 @@
 
 ### [Webstrom 学习及常见问题](commom/LEARNING_AND_PROBLEM.md)
 
-### [Idea 学习及常见问题](idea-init-config/IDEA_LEARING_AND_PROBLEM.md)
+### [Idea 学习及常见问题](webstrom/IDEA_LEARING_AND_PROBLEM.md)
+
+### [java代码常用的工具库](commom/JAVA_COMMONLY_USERD_API.md)
