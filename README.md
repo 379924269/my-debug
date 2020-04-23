@@ -46,6 +46,8 @@
 
 ### [java代码常用的工具库](commom/JAVA_COMMONLY_USERD_API.md)
 
+### [Java学习+面试指南,一份涵盖大部分Java程序员所需要掌握的核心知识。](https://github.com/Snailclimb/JavaGuide#%E5%9F%BA%E7%A1%80)
+
 ### [spring官方学习地址](https://spring.io/)
 
 ### [git 上看的项目](commom/GIT_LEARNING_PROJECT.md)

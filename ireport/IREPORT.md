@@ -1,11 +1,26 @@
 ## IREPORT的一些知识
-### 里面的宽、高指的是像素
+
+##常见的注意事项
+1、ireport 属性中language记得选java, 不然会报错
+其他注意[参考](http://www.aiuxian.com/article/p-1706776.html)
+
+JasperReport简易入门教程[参考地址](https://blog.csdn.net/dullchap/article/details/51799070)
+
+### 1、需要加载的maven库
+
+###3、ireport中detail的伸展问题解决
+[参考地址](https://blog.csdn.net/veray/article/details/86638308?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)
+
+### 1、关于iReport5.6.0无法正常启动或者闪退或者JDK8不兼容的解决方案
+[问题处理地址](https://blog.csdn.net/erlian1992/article/details/76359191)
+
+### 2、里面的宽、高指的是像素
 ````
 1英寸 = 25.4mm
 像素 = 72像素/英寸时
 ````
 
-### ISO 216纸张尺寸（单位：mm）
+### 3、ISO 216纸张尺寸（单位：mm）
 
 A系列格式 | B系列格式 | C系列格式
  
