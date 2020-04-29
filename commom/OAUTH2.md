@@ -10,6 +10,8 @@
   
 * [OAuth 2开发人员指南：](https://projects.spring.io/spring-security-oauth/docs/oauth2.html)
 
+* [Spring-Boot-2.0 oauth2的改动参考文档](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Migration-Guide)
+
 ### 关于WebSecurityConfigurerAdapter和ResourceServerConfigurerAdapter区别联系
 * [参考地址，也可以参考他的配置](https://blog.csdn.net/lixiang987654321/article/details/88132204)
 
