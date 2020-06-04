@@ -6,3 +6,5 @@ NPRC3VS0BA-eyJsaWNlbnNlSWQiOiJOUFJDM1ZTMEJBIiwibGljZW5zZWVOYW1lIjoiMzc5OTI0MjY5I
 ````
 [过期处理参考地址](https://www.jb51.net/softs/672190.html) ，我先用的lience server测试不行， 然后用的第二种Activation code
 跳到指定的连接，然后获取的验证码，填上就可以了
+
+2、[20201.1 idea激活 参考方式](https://www.cnblogs.com/souyunku/p/12923182.html)

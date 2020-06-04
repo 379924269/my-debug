@@ -64,6 +64,25 @@
 
 - 2、组合键：“Shift+Ctrl+Alt+/” ，选择 “Registry” ，选中打勾 “compiler.automake.allow.when.app.running” 。
 
+- 3、引入jar和配置 <fork>true</fork> ,如果没有该配置，devtools不会生效
+````
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-devtools</artifactId>
+    <optional>true</optional>
+</dependency>
+
+ <plugins>
+    <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+        <configuration>
+            <fork>true</fork> <!-- 如果没有该配置，devtools不会生效 -->
+        </configuration>
+    </plugin>
+</plugins>
+````
+
 ## 9、springboot 跨域问题，[修改参看地址](https://blog.csdn.net/qq_24393965/article/details/80689299)
 
 ## 10、写代码的时候注意：

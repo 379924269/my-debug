@@ -64,5 +64,8 @@
 #### 十七、sql中文排序问题
 如果编码是GBK就没问题，如果是utf-8就会有问题，需要处理一下
 
+### 十八、 如何设计一个安全的对外接口
+[参考地址：](https://mp.weixin.qq.com/s?__biz=MzAxNjk4ODE4OQ==&mid=2247488713&idx=3&sn=ff5991d4881929bd6a147a7051e05a35&chksm=9bed35bbac9abcadfc1f1359ec66e98c29931fb89570ab10636c96ee6bd7a1b6a4e68be36ef5&scene=126&sessionid=1588207136&key=5134b9fdf48fcb986221218adb49aea48295b3e2ecffed11414047ef90725be67460b94ad89a4956b45efbc557a28ce1fd5cb6654ebe07e02e571d7e6e4217ea3e04ca4c87027cd29044beae1ec8c44d&ascene=1&uin=MjU1OTg0MzU4Mw%3D%3D&devicetype=Windows+10&version=62080079&lang=zh_CN&exportkey=A9aQVc3rRVvxY45eRjk9pmk%3D&pass_ticket=3avGRUpDV6Dn%2Bc4UHiRxoPBEzROgPF6n6JGDGam%2BrsEShz%2BZvkcEzVv4uWLj4eMB)
+
 
 
