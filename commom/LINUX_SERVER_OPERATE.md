@@ -20,4 +20,7 @@ flush privileges;
 
 ### 注意磁盘的使用率，使用90%以上，就容易造成系统问题
 
+### grep命令的or，and，not操作的例子
+[参考地址](https://www.cnblogs.com/chaichuan/p/4172070.html)
+
 
