@@ -1,6 +1,10 @@
 ## 常见问题和一些学习笔记
 
+### [借鉴的工作心得，关键还可以](work/工作心得.md)
+
 ### [我经常遇到的一些问题](commom/COMMON_PROBLEMS.md)
+
+### [web后端一般要具备那些通用的功能](javaweb/java后端一般要具有那些通用的功能.md)
 
 ### [我常看的一些博客](commom/FREQUENT_SEE_BLOG.md)
 

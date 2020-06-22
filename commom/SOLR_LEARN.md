@@ -1,10 +1,13 @@
 ## solr搜索引擎学习整理， 下面是windows下部署solr
 我参考的书籍是[《solr权威指南》](https://pan.baidu.com/s/15_cOk0ThWeQg622lxdOlmg)，上面有各种配置
 
+[solr访问地址](http://localhost:8983/solr/)
+[solr配置参考地址](https://blog.csdn.net/liushuiyouyi1991/article/details/105326659/)
+
 ### 下面是我windows测试的简单配置
 1、[官网](https://lucene.apache.org/solr/downloads.html)下载solr的文件
 
-2、修改web.xml,配置solr_home的路径
+2、修改web.xml,配置solr_home的路径(暂时不知道干什么)
 
 3、部署solr到tomcat或jeety等服务器 访问solr
 
@@ -64,3 +67,6 @@
 
 2、数据量大的时候的处理：
 * 在dataConfig.xml中配置batchSize="-1" 放到<datasource>标签里面
+
+3、配置manager-schema的时候字段重复，处理办法
+* 1、 <field column="name" name="name"/>给字段取一个别名

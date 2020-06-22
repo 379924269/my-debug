@@ -1,4 +1,8 @@
-## swagger-ui的一些知识
+# swagger-ui的一些知识
+
+## swagger-ui 转换为doc文档思路
+可以先把v2/api-docs种的json拿到，人后用html的table来生成html文档，人后由html转化为doc文档就可以了，然后再整理
+[参考地址](https://www.jianshu.com/p/0d09550322d8)
 
 ## Swagger接口分类与各元素排序问题详解：
 其他详细介绍 [参考地址](http://blog.didispace.com/spring-boot-learning-21-2-4/)  
