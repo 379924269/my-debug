@@ -1,4 +1,5 @@
 ## javaweb开发常用linux操作是的一些常用指令
+[linux命令大全参考地址](https://ipcmen.com/category/shell-command)
 
 #### 一、查看日志详情
 tail -f /usr/local/apache-tomcat-8.0.30/logs/catalina.out -n 300
@@ -17,6 +18,14 @@ find “赛选字段” 文件路径，如：find "2017-12-18 16:53" emm.txt
 grant all privileges on *.* to 'root'@'%' identified by '123456' with grant option;
 flush privileges;
 受了权限还是不能连上可能是linux防火墙没有关
+
+### CentOS7防火墙开启端口命令：
+- firewall-cmd --permanent --add-port=3032/tcp
+- firewall-cmd --reload
+
+### centos7或关闭防火强服务
+systemctl stop firewalld.service
+systemctl start firewalld.service
 
 ### 注意磁盘的使用率，使用90%以上，就容易造成系统问题
 

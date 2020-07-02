@@ -1,4 +1,6 @@
 ## 常见问题和一些学习笔记
+不懂先找文档，忘了多看文档，要向熟悉多练文档。
+我学习一种框架的前提：要有好的**`文档、社区、成功`**的例子。
 
 ### [借鉴的工作心得，关键还可以](work/工作心得.md)
 
@@ -59,3 +61,13 @@
 ### [git 上看的项目](commom/GIT_LEARNING_PROJECT.md)
 
 ### [oauth2相关的学习](commom/OAUTH2.md)
+
+### [简单的word技巧学习](https://www.wps.cn/learning/course/detail/id/844.html?chan=pc_win_hover)
+
+### [quartz学习](commom/OAUTH2.md)
+
+### [idea 中常用的插件](idea-init-config/idea中常用的插件.md)
+
+### [简单的并发编程学习netty](commom/NETTY_LEARING.md)
+
+### 发现一个性能测试工具ab   ab - Apache HTTP 服务器性能测试工具, 这个linux工具也可以看看slowhttptest 
