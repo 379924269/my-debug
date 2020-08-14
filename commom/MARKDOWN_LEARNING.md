@@ -162,3 +162,24 @@ Tables:
 | Header 1 | Header 2 |
 | -------- | -------- |
 | Data 1   | Data 2   |
+
+### 生成树可以用linux中的tree命令 列出指定目录下的directory 限制3层
+tree /usr/local/hadoop/hadoop-3.1.3/ -d -L 3
+````
+├── bin
+├── etc
+│   └── hadoop
+│       └── shellprofile.d
+├── include
+├── lib
+│   └── native
+│       └── examples
+├── libexec
+│   ├── shellprofile.d
+│   └── tools
+├── logs
+├── sbin
+│   └── FederationStateStore
+│       ├── MySQL
+│       └── SQLServer
+````
