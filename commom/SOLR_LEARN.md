@@ -4,6 +4,9 @@
 [solr访问地址](http://localhost:8983/solr/)
 [solr配置参考地址](https://blog.csdn.net/liushuiyouyi1991/article/details/105326659/)
 
+[solr查询参数详解](https://www.cnblogs.com/zhangweizhong/p/5056884.html)
+[solr查询参数详解1](https://blog.csdn.net/zuihongyan518/article/details/90060175)
+
 ### 下面是我windows测试的简单配置
 1、[官网](https://lucene.apache.org/solr/downloads.html)下载solr的文件
 

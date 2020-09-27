@@ -27,20 +27,22 @@ mysqldump -uxxx -p databaseName > backupFile
 enter password: xxx
 
 ####6、mysql中模糊查询要处理的特殊字符，记得转义
-1、' 点
-2、% 百分号
-3、下划线
+- 1、' 点
+- 2、% 百分号
+- 3、下划线
 
-####6、 group_contact函数默认长度为1024子字节
+####7、 group_contact函数默认长度为1024子字节
 
-## sql优化
+### 8、sql优化
 
-###1、in 当in的数据达到上万条后明显有点慢，我用EXISTS替换了
+- 1、in 当in的数据达到上万条后明显有点慢，我用EXISTS替换了
 [参考地址](https://blog.csdn.net/fukaiit/article/details/83515439)
 
-### 2、FIND_IN_SET  跟在where后面就慢了。
+- 2、FIND_IN_SET  跟在where后面就慢了。
 部门数据不到1000条就用了4、5秒
 慢：    SELECT o.id FROM `organization` o WHERE FIND_IN_SET(o.id, getChildList(1));
 优化后：SELECT o.id FROM `organization` o, (SELECT getChildList(1) cids) t WHERE FIND_IN_SET(o.id,cids);
-
 [参考地址](https://blog.csdn.net/wokelv/article/details/78915502)
+
+### 9、mysql导入大数据处理：
+[参考地址](https://www.jianshu.com/p/6761e10d9fb3)
