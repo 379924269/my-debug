@@ -1,5 +1,5 @@
 ## 常见问题和一些学习笔记
-不懂先找文档，忘了多看文档，要向熟悉多练文档。
+不懂先找文档，忘了多看文档，要想熟悉多练文档。
 我学习一种框架的前提：要有好的**`文档、社区、成功`**的例子。
 
 ### [借鉴的工作心得，关键还可以](work/工作心得.md)
@@ -22,7 +22,7 @@
 
 ### [springcloud注意的一些问题](commom/SPRING_CLOUD_NOTE.md)
 
-### [我的chrome的书签](my-web-bookmark/bookmarks_2018_11_16.html)
+### [我的chrome的书签](my-web-bookmark/bookmarks_2020_10_29.html)
 
 ### [markdown文档格式模板](commom/MARKDOWN_LEARNING.md)
 
@@ -40,7 +40,7 @@
 
 ### [swagger-ui常见问题及学习](commom/SWAGGER-UI-LEARN.md)
 
-### [常看的一些网页](commom/FREQUENT_SEE_WEBSITES.md)
+### [在线API中文手册](commom/FREQUENT_SEE_WEBSITES.md)
 
 ### [编程教程网站集合](commom/STUDY_TOUR_WEBSITE.md)
 
@@ -75,3 +75,5 @@
 ### [开源主流分布式文件系统学习](commom/FILE_SYSTEM_LEARING.md)
 
 ### [maven插件学习](commom/maven插件学习.md)
+
+### [springboot 前后端分立参考项目集合](commom/开源项目推荐学习.md)
