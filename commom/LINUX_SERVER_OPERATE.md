@@ -32,4 +32,23 @@ systemctl start firewalld.service
 ### grep命令的or，and，not操作的例子
 [参考地址](https://www.cnblogs.com/chaichuan/p/4172070.html)
 
+### CentOS 7.x设置自定义开机启动,添加自定义系统服务
+配置[参考地址](http://www.sevenfal.com/2016/08/04/784.html)
+- 简单说明
+~~~~
+[Unit]:服务的说明
+Description:描述服务
+After:描述服务类别
+ 
+[Service]服务运行参数的设置
+Type=forking      是后台运行的形式
+ExecStart        为服务的具体运行命令
+ExecReload       为服务的重启命令
+ExecStop        为服务的停止命令
+PrivateTmp=True     表示给服务分配独立的临时空间
+注意：启动、重启、停止命令全部要求使用绝对路径
+ 
+[Install]        服务安装的相关设置，可设置为多用户
+WantedBy=multi-user.target 
+~~~~
 

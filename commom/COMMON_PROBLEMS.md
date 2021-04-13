@@ -155,3 +155,24 @@ list<Position>.stream().map(this::toMap).collect(Collectors.toList());
 ## 21、java测试代码执行的速度的时候开启了调试debug，感觉代码执行时间很长，我关掉dubug就正常了。
 
 ## 22、springboot resttemplete 发送https请求[参考地址](https://www.jianshu.com/p/c2663ba6826e)
+
+## springboot 获取resource下的文件路径
+````
+File file =  ResourceUtils.getFile(ResourceUtils.CLASSPATH_URL_PREFIX + "filename");
+````
+
+## 23 springboot 数据库密码加密问题
+1 、数据库密码加密：https://www.jianshu.com/p/8939e405deeb参考地址，注意加@EnableEncryptableProperties
+2、生成数据库密码代码：
+````````
+ /**
+     * 生成数据库密码加密字符串
+     * @param key 加密密钥
+     * @param dbPass 数据库密码
+     */
+    private void genDBPasswordCipher(String key, String dbPass) {
+        BasicTextEncryptor ba = new BasicTextEncryptor();
+        ba.setPassword(key);
+        System.out.println("数据库密码加密字符串 = " + ba.encrypt(dbPass));
+    }
+````````
