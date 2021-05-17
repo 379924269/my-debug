@@ -18,7 +18,7 @@
 
 ### [javawenb 后端开发的注意事项](commom/DEVELOP-WEB-NOTE-README.md)
 
-### [学习书籍整理](commom/LEARNING_BOOK_MANAGE.md)
+### [学习书籍整理](book/BOOK_LEARNING.md)
 
 ### [项目和框架学习地址](commom/PROJECT_AND_FRAMEWORK_LEARN_ADDRESS.md)
 
