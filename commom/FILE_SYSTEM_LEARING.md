@@ -34,3 +34,20 @@ If you cannot ssh to localhost without a passphrase, execute the following comma
 
 https://blog.csdn.net/nenguou04/article/details/88770031
 
+[Unit]
+Description=nginx - high performance web server
+Documentation=http://nginx.org/en/docs/
+After=network.target remote-fs.target nss-lookup.target
+ 
+[Service]
+Type=forking
+PIDFile=/your nginx pid file path/nginx.pid
+ExecStartPre=/usr/local/nginx/sbin/nginx -t -c /usr/local/nginx/conf/nginx.conf
+ExecStart=/usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s QUIT $MAINPID
+PrivateTmp=true
+ 
+[Install]
+WantedBy=multi-user.target
+
