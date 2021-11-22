@@ -178,3 +178,16 @@ File file =  ResourceUtils.getFile(ResourceUtils.CLASSPATH_URL_PREFIX + "filenam
         System.out.println("数据库密码加密字符串 = " + ba.encrypt(dbPass));
     }
 ````````
+
+## 24 tomcat 遇到异常（内存泄露）停止， 下面是错误
+错误：
+~~~~
+org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [check] appears to have started a thread named [Thread-43] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.dnp.obt.se.serial.YSerialPort$SerialReaderFilter.call(YSerialPort.java:400)
+ com.dnp.obt.se.serial.YSerialPort$SerialReaderFilter.call(YSerialPort.java:367)
+ java.util.concurrent.FutureTask.run(FutureTask.java:266)
+ java.lang.Thread.run(Thread.java:748)
+~~~~
+定位到代码，原来是代码的那个线程没有停止，一直循环， 导致tomcat死了。
+当时是意外锁定问题的. 我开启调试模式，然后下了一个断点在异常指示的位置。然后（F9）结束调试,结果却没有结束，于是发现这个地方线程没有释放。
