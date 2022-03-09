@@ -1,2 +1,2 @@
 ~~~
-yum insatll git curl docker
+yum insatll git curl docker 
