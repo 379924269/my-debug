@@ -191,3 +191,15 @@ org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web 
 ~~~~
 定位到代码，原来是代码的那个线程没有停止，一直循环， 导致tomcat死了。
 当时是意外锁定问题的. 我开启调试模式，然后下了一个断点在异常指示的位置。然后（F9）结束调试,结果却没有结束，于是发现这个地方线程没有释放。
+
+## 25 开启启动微服务的仪表盘  
+把这一句加入.idea的workspace.xml 中
+~~~~
+<component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+</component>
+~~~~
