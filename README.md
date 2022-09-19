@@ -34,7 +34,7 @@
 
 ### [linux的一些常用操作](commom/LINUX_SERVER_OPERATE.md)
 
-### [MYSQL注意的一些问题](commom/MYSQL_NOTE.md)
+### [MYSQL 学习](commom/MYSQL_NOTE.md)
 
 ### [RabbitMQ学习](commom/RABBITMQ_OPERATE.md)
 

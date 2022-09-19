@@ -1,3 +1,8 @@
+## crontab设置开机自动启动sh脚本
+- 1、打开crontab任务     
+crontab -e  
+- 2、设置脚本在启动后的30s启动tomcat  
+@reboot ( sleep 30s ; sh /usr/local/tomcta/bin/startup.sh )     【/usr/local/tomcta/bin/startup.sh(路径)】 
 ## javaweb开发常用linux操作是的一些常用指令
 [linux命令大全参考地址](https://ipcmen.com/category/shell-command)
 

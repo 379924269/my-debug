@@ -1,4 +1,4 @@
-##MYSQL 的一些注意事项
+##MYSQL mysql 学习
 ####1、数据库中的`登录`字段一定要设置唯一。
 
 ####2、数据库`条件查询`字段`忽略大小写`
@@ -46,3 +46,8 @@ enter password: xxx
 
 ### 9、mysql导入大数据处理：
 [参考地址](https://www.jianshu.com/p/6761e10d9fb3)
+
+### 10 查询多条件
+select from（结果 t1） t2
+if 条件
+结合的查询语句
